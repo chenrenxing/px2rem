@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="cache" content="no-cache">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>grunt环境rem</title>
+    <link rel="stylesheet" type="text/css" href="css/rem/myindex-rem.css"/>
+    <link rel="stylesheet" href="js/swiper/swiper.3.1.7.min.css" />
+    <script src="js/flexible.dev.js"></script>
+     <script src="js/zepto/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+ 	<script src="js/swiper/swiper.3.1.7.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+ 	<script> 
+		window.onload=function(){  var mySwiper = new Swiper('.swiper-container', {
+                autoplayDisableOnInteraction: false,
+                freeMode: true,
+				effect : 'cube',
+				cube: {
+				slideShadows: true,
+				shadow: true,
+				shadowOffset: 200,
+				shadowScale: 1
+				},
+				loop : true,
+				autoplay: 1000,
+            });
+	}
+  </script>
+   </head>
+
+<body style='font-size:75px'>
+	<div>
+			<!--公共头部-->
+	<header id="mall-header" class='myHeader'>
+		<h1>质码商城</h1>
+		<div>
+			<!-- <a href="#" class="edit-all">编辑</a>
+			<a href="address_manage.html" class="manage">管理</a>
+			<a href="../cart/cart.html">
+				<i class="cart"></i>
+			</a> -->
+			<a>
+				<i class="home" id="home" style="background-image: url(images/home2.png);"></i>
+			</a>
+		</div>
+		
+	</header>
+			
+	
+
+	<div class="ac_header index-content" id="indexContentBox">
+				
+				<!--<button id="btn" style="width: 100%;height: 90px;">测试登录</button>
+				<button onclick="$.isLoggedIn(function(){$.alerts('已经登录')},function(){$.alerts('没有登录')})" style="width: 100%;height: 90px; margin-top: 20px;">
+					判断是否登录
+				</button>-->
+				
+				<!-- 轮播图start   -->
+				
+				<!-- 轮播图end   -->
+				<!--频道start-->
+				
+				<!--频道end-->
+				<!--广告start-->
+				
+				<!--广告end-->
+				<!--列表start-->
+				
+				<!--列表end-->
+				<!--底部start-->
+				<div calss='bannar'>
+					<div class="swiper-container">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide">
+					        	<img src='images/banner.png' class='w-full'/>
+					        </div>
+					        <div class="swiper-slide">
+			        			<img src='images/wine-bg.png ' class='w-full'/>
+					        </div>
+					        <div class="swiper-slide">
+					        	<img src='images/watch-bg.png' class='w-full'/>
+					        </div>
+					    </div>
+					    <!-- 如果需要分页器 -->
+					    <div class="swiper-pagination"></div>  
+					</div>
+				</div>
+
+				<div class='channels'>
+						<ul>
+							<li>
+								<a>
+									<i style="background-image: url(images/wine.png);"></i>
+									<span>
+										美酒
+									</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<i style="background-image: url(images/watch.png);"></i>
+									<span>
+										腕表
+									</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<i style="background-image: url(images/furniture.png);"></i>
+									<span>
+										家具
+									</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<i style="background-image: url(images/classify.png);"></i>
+									<span>
+										分类
+									</span>
+								</a>
+							</li>
+						</ul>
+
+				</div>
+
+
+				<div class='ads'>
+					<a class="w-full">
+						<img src="images/ads.png" class='w-full'/> 
+					</a>
+				</div>
+
+				<div class='products'>
+					<ul class="goods-list-cell">
+						<li>
+							<a>
+								<i style="background-image: url(images/product01.png);"></i>
+								<div>
+									<span class='goods-describe'>【红酒特卖】英国法螺骑士葡萄酒750</span>
+								</div>
+							</a>
+							<div class="goods-buy-info">>
+								<span class="goods-price">
+									￥50
+								</span>
+								<span class='goods-buy-number'>
+									<span>151</span>人购买
+								</span>
+							</div>
+						</li>
+						<li>
+							<a>
+								<i style="background-image: url(images/product02.png);"></i>
+								<div>
+									<span class='goods-describe'>【红酒特卖】英国法螺骑士葡萄酒750</span>
+								</div>
+							</a>
+							<div class="goods-buy-info">>
+								<span class="goods-price">
+									￥50
+								</span>
+								<span class='goods-buy-number'>
+									<span>151</span>人购买
+								</span>
+							</div>
+						</li>
+						<li>
+							<a>
+								<i style="background-image: url(images/product01.png);"></i>
+								<div>
+									<span class='goods-describe'>【红酒特卖】英国法螺骑士葡萄酒750</span>
+								</div>
+							</a>
+							<div class="goods-buy-info">>
+								<span class="goods-price">
+									￥50
+								</span>
+								<span class='goods-buy-number'>
+									<span>151</span>人购买
+								</span>
+							</div>
+						</li>
+						<li>
+							<a>
+								<i style="background-image: url(images/product02.png);"></i>
+								<div>
+									<span class='goods-describe'>【红酒特卖】英国法螺骑士葡萄酒750</span>
+								</div>
+							</a>
+							<div class="goods-buy-info">>
+								<span class="goods-price">
+									￥50
+								</span>
+								<span class='goods-buy-number'>
+									<span>151</span>人购买
+								</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+
+				<div class="footer" id="footTapBox">
+					
+						<ul>
+							<li>
+								<a>
+									<i style="background-image: url(images/icon_home_n.png);"></i>
+									<span>
+										商城首页
+									</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<i style="background-image: url(images/icon_gwc_n.png);"></i>
+									<span>
+										购物车
+									</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<i style="background-image: url(images/icon_sc_n.png);"></i>
+									<span>
+										我的收藏
+									</span>
+								</a>
+							</li>
+							<li>
+								<a>
+									<i style="background-image: url(images/icon_wddd_n.png);"></i>
+									<span>
+										我的订单
+									</span>
+								</a>
+							</li>
+						</ul>
+					
+				</div>
+				<!--底部end-->
+			</div>
+		</div>
+
+</body>
+
+
+
+</html>
